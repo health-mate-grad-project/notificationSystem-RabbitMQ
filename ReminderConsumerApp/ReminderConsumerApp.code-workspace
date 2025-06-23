@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../healthmate-backend/json"
+		}
+	],
+	"settings": {}
+}
