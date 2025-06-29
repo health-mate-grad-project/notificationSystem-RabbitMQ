@@ -23,12 +23,12 @@ public class FcmTokenFetcher
             }
             else
             {
-                Console.WriteLine($"❌ Failed to fetch token. Status: {response.StatusCode}");
+                Console.WriteLine($" Failed to fetch token. Status: {response.StatusCode}");
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"❌ Exception while fetching FCM token: {ex.Message}");
+            Console.WriteLine($" Exception while fetching FCM token: {ex.Message}");
         }
 
         return null;
